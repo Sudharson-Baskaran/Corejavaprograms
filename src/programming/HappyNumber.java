@@ -14,12 +14,13 @@ public class HappyNumber {
 	sum = sum+(rem*rem);
 	number = number/10;
 	}
+	
 	return sum;
 	}
 	public static void main(String[] args)
 	{
 
-	int number=19;
+	int number=32;
 	int result = number;
 	while (result>9)
 	{

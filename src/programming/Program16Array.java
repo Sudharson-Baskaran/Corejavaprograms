@@ -13,7 +13,7 @@ public class Program16Array {
 			a[i]=a[i]-a[n-i-1];	
 		}
 		for (int i = 0; i < a.length; i++) {
-			System.out.println(a[i]);
+			System.out.print(a[i]);
 		}        
 
 	}
